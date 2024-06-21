@@ -186,7 +186,8 @@ def calculate_nps(scores):
     return nps
 
 # Streamlit application layout
-st.image("logo.png", width=200)
+# st.image("logo.png", width=200)
+st.image("logo.png", width=200, height=100)
 st.markdown("<h1 style='font-size:30px;'>Planet Pharmaceuticals Sales Analysis Dashboard</h1>", unsafe_allow_html=True)
 
 # Sidebar for navigation
